@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>secret</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="brnk.css">
+</head>
+<body>
+
+<div class="window">
+  <div class="title-bar">
+    <span>From: Burnok</span>
+    <span>— ✕</span>
+  </div>
+
+  <div class="content">
+
+    <div id="text" class="typewriter"></div>
+    <span class="cursor">█</span>
+
+    <div class="gift-area" id="giftArea">
+      <div class="pixel-art bounce" id="imageBox">
+        <img src="giftclose.png" alt="pixel gift">
+      </div>
+
+      <button id="btn" onclick="nextScreen()">open</button>
+    </div>
+
+    <button id="topBtn" class="top-button hidden">
+      click me!
+    </button>
+
+  </div>
+</div>
+
+<script src="brnk.js"></script>
+</body>
+</html>
