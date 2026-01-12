@@ -46,7 +46,7 @@ function nextScreen() {
     setTimeout(() => {
       giftArea.style.display = "none";
       
-      typeText("🎉 Happy Birthday, Olin! 🎉");
+      typeText("tap mo yung sound icon sa baba hehe");
       topBtn.classList.remove("hidden");
 
       opening = false;
