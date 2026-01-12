@@ -46,7 +46,7 @@ function nextScreen() {
     setTimeout(() => {
       giftArea.style.display = "none";
       
-      typeText("tap mo yung sound icon sa baba hehe");
+      typeText("tap mo yung sound icon sa baba");
       topBtn.classList.remove("hidden");
 
       opening = false;
